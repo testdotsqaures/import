@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../lib/internal/Magento/Framework/App/etc/routes.xsd">
+    <router id="admin">
+        <route id="attributes" frontName="attributes">
+            <module name="Dotsquares_Attributes" before="Magento_Adminhtml" />
+        </route>
+    </router>
+</config>

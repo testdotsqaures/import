@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+        <add id="Dotsquares_Attributes::parent" title="Dotsquares Attributes" module="Dotsquares_Attributes" sortOrder="100" resource="Dotsquares_Attributes::parent"/>
+        <add id="Dotsquares_Attributes::index" title="Export/Import Product Attributes" module="Dotsquares_Attributes" sortOrder="10" action="attributes/index" resource="Dotsquares_Attributes::index" parent="Dotsquares_Attributes::parent"/>
+		
+    </menu>
+</config>
